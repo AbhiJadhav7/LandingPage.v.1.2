@@ -28,7 +28,9 @@ const Heropage1 = () => {
             <br />
           </div>
           <div>
+            <a href="https://marketinlab.com/facebook-ads-strategy-for-ecommerce/"  rel="noopener noreferrer">
             <button className="btn-purple-rm">Read more</button>
+            </a>
           </div>
         </div>
         <div className="container-right">
@@ -69,7 +71,9 @@ const Heropage1 = () => {
             <br />
           </div>
           <div>
+            <a href="https://marketinlab.com/contact-us/" target="_blank" rel="noreferrer">
             <button className="btn-purple-lwt">Let's Work Together</button>
+            </a>
           </div>
         </div>
         <div className="container-right">
@@ -111,7 +115,8 @@ const Heropage1 = () => {
             <br /><br /><br />
           </div>
           <div>
-            <button className="btn-purple-lwt">Let's Work Together</button>
+          <a href="https://marketinlab.com/contact-us/" target="_blank" rel="noreferrer">
+            <button className="btn-purple-lwt">Let's Work Together</button></a>
           </div>
         </div>
       </div>

@@ -89,7 +89,9 @@ const Ourwork1 = () => {
       <br />
       <br />
       <div className="flex-co">
+      <a href="https://marketinlab.com/contact-us/" target="_blank" rel="noreferrer">
         <button className="btn-purple-lwt">Let's Work Together</button>
+        </a>
       </div>
       <br />
       <br />
