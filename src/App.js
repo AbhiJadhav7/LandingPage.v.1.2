@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React from "react";
+import "./marketinlab.css";
+import "@fontsource/poppins"; // Defaults to weight 400
+import "@fontsource/poppins/700.css"; // Specify weight
+import Heropage1 from "./components/Heropage1";
+import WhatWeProvide from "./components/WhatWeProvide";
+import Testimonials from "./components/Testimonials";
+import ContactUs from "./components/ContactUs";
+import Ourwork1 from "./components/Ourwork1";
+import Footer from "./components/Footer";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+    <Heropage1/>
+    <Ourwork1/> 
+    <WhatWeProvide/>
+    <Testimonials/>
+    <ContactUs/> 
+    <Footer/>
     </div>
   );
-}
+};
 
 export default App;
